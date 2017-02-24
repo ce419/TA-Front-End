@@ -1,0 +1,41 @@
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  overflow: hidden; }
+  body .header, html .header {
+    background-color: blue;
+    height: 398px;
+    width: 100%;
+    display: block; }
+    body .header .content-holder, html .header .content-holder {
+      width: 60%;
+      height: 300px;
+      margin-top: 49px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: orange; }
+      body .header .content-holder .image, html .header .content-holder .image {
+        height: 100px;
+        width: 100px;
+        border: 2px solid white;
+        border-radius: 1px;
+        float: left; }
+      body .header .content-holder .info, html .header .content-holder .info {
+        margin-left: 60px;
+        float: left;
+        height: 150px;
+        width: 130px;
+        background-color: aqua; }
+      body .header .content-holder .follow, html .header .content-holder .follow {
+        float: right;
+        width: 245px;
+        height: 70px;
+        background-color: beige; }
+  body .body, html .body {
+    background-color: white;
+    height: 640px;
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

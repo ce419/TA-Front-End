@@ -1,0 +1,52 @@
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  overflow: hidden;
+  .header {
+    background-color: blue;
+    height: 398px;
+    width: 100%;
+    display: block;
+    //float: left;
+
+    .content-holder{
+      width: 60%;
+      height: 300px;
+      margin-top: 49px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: orange;
+
+      .image{
+        height: 100px;
+        width: 100px;
+        border: 2px solid white;
+        border-radius: 1px;
+        float: left;
+      }
+
+      .info{
+        margin-left: 60px;
+        float: left;
+        height: 150px;
+        width: 130px;
+        background-color: aqua;
+      }
+
+      .follow{
+        float: right;
+        width: 245px;
+        height: 70px;
+        background-color: beige;
+      }
+    }
+  }
+
+  .body {
+    background-color: white;
+    height: 640px;
+    width: 100%;
+  }
+}
